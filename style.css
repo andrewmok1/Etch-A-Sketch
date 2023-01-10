@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    position: relative;
+    min-height: 100%; 
+}
+
+html,body {
+    background-color: rgb(182, 173, 173);
+}
+
+.header-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.header {
+    font-size: 64px;
+}
+
+.subtext-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.subtext {
+    font-size: 32px;
+}
+
+.gridSize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#reset {
+    display: flex;
+    max-width: 75px;
+    width: 100%;
+    padding: 1px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 0px;
+    justify-content: center;
+}
+
+.button-grid-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 100px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-right: 25px;
+}
+
+button {
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 150px;
+}
+
+button:hover, button:focus, button:active {
+    transform: scale(1.2);
+}
+
+.grid {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    margin-right: 170px;
+    border: 5px solid black;
+    border-radius: 10px;
+}

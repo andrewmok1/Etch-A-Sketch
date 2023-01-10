@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Etch-a-Sketch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header-container">
+    <div class="header">Etch-a-Sketch</div>
+  </div>
+
+  <div class="subtext-container">
+    <div class="subtext">Choose Grid Size Below & Start Drawing!</div>
+  </div>
+
+  <div class="gridSize">
+    <input type="text" placeholder="Ex.1-99 " onchange="changeSize(this.value)"></input>
+    <button id="reset">Set Size!</button>
+  </div>
+
+  <div class="button-grid-container">
+    <div class="button-container">
+        <button onclick="changeColor('black')">Black</button>
+        <button onclick="changeColor('random')">Rainbow</button>
+        <button onclick="changeColor('white')">Eraser</button>
+        <button onclick="resetBoard()">Reset</button>
+    </div>
+    
+    <div class="grid"></div>
+
+  </div>
+  
+  <script src="script.js" charset="utf-8"></script>
+</body>
+</html>
